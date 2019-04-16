@@ -11,18 +11,19 @@
   height: 100vh;
   color: #000;
   font-size: 26px;
+  overflow: scroll;
 
   .header{
     width: 100%;
-    height: 20%;
+    height: 260px;
     background-color: #f7d7ae;
     color: #0cc;
+    border: 1px solid #f7d7ae;
 
     .head_Content{
       width: 100%;
       height: 120px;
-      position: fixed;
-      top: calc(10% - 60px);
+      margin-top: 70px;
       @include flex-row;
 
       .header_Img{
@@ -65,7 +66,7 @@
       .member{
         width: 220px;
         height: 80px;
-        background-color: #000;
+        background-color: #333;
         position: absolute;
         right: 0;
         border-bottom-left-radius: 80px;
@@ -89,9 +90,8 @@
   .center{
     width: 94%;
     height: auto;
-    position: fixed;
-    left: 3%;
-    border: 1px solid red;
+    margin-left: 3%;
+    position: relative;
     background: #f2eee9;
     .item{
       padding-bottom: 20px;

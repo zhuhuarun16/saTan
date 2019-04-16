@@ -7,6 +7,7 @@ import Personal from './pages/personal'
 import Shopping from './pages/shopping'
 
 import counterStore from './store/counter'
+import personalStore from './store/personal'
 
 import './app.scss'
 
@@ -17,7 +18,8 @@ import './app.scss'
 // }
 
 const store = {
-  counterStore
+  counterStore,
+  personalStore
 };
 
 class App extends Component {
